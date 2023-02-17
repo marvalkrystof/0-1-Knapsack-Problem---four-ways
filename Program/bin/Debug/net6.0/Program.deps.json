@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Program/1.0.0": {
+        "dependencies": {
+          "Combinations": "1.0.0",
+          "Knapsack": "1.0.0"
+        },
+        "runtime": {
+          "Program.dll": {}
+        }
+      },
+      "Combinations/1.0.0": {
+        "runtime": {
+          "Combinations.dll": {}
+        }
+      },
+      "Knapsack/1.0.0": {
+        "runtime": {
+          "Knapsack.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Program/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Combinations/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Knapsack/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
