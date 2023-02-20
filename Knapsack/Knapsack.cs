@@ -39,12 +39,12 @@
             int totalValue = 0;
             foreach (Item item in items)
             {
-                if (totalWeight > capacity)
-                {
-                    return (-1,null);
-                }
                 totalValue += item.value;
                 totalWeight += item.weight;
+                if (totalWeight > Capacity)
+                {
+                    return (-1, null);
+                }
             }
                 return (totalValue,items);
         }

@@ -22,3 +22,15 @@ C:\Users\marva\Desktop\KnapsackProblem-4ways\Combinations\obj\Debug\net6.0\Combi
 C:\Users\marva\Desktop\KnapsackProblem-4ways\Combinations\obj\Debug\net6.0\refint\Combinations.dll
 C:\Users\marva\Desktop\KnapsackProblem-4ways\Combinations\obj\Debug\net6.0\Combinations.pdb
 C:\Users\marva\Desktop\KnapsackProblem-4ways\Combinations\obj\Debug\net6.0\ref\Combinations.dll
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Combinations\bin\Debug\net6.0\Combinations.deps.json
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Combinations\bin\Debug\net6.0\Combinations.dll
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Combinations\bin\Debug\net6.0\Combinations.pdb
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Combinations\obj\Debug\net6.0\Combinations.csproj.AssemblyReference.cache
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Combinations\obj\Debug\net6.0\Combinations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Combinations\obj\Debug\net6.0\Combinations.AssemblyInfoInputs.cache
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Combinations\obj\Debug\net6.0\Combinations.AssemblyInfo.cs
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Combinations\obj\Debug\net6.0\Combinations.csproj.CoreCompileInputs.cache
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Combinations\obj\Debug\net6.0\Combinations.dll
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Combinations\obj\Debug\net6.0\refint\Combinations.dll
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Combinations\obj\Debug\net6.0\Combinations.pdb
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Combinations\obj\Debug\net6.0\ref\Combinations.dll

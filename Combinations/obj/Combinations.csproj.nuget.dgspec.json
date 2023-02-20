@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marva\\Desktop\\KnapsackProblem-4ways\\Combinations\\Combinations.csproj": {}
+    "C:\\Users\\42072\\0-1-Knapsack-Problem---four-ways\\Combinations\\Combinations.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marva\\Desktop\\KnapsackProblem-4ways\\Combinations\\Combinations.csproj": {
+    "C:\\Users\\42072\\0-1-Knapsack-Problem---four-ways\\Combinations\\Combinations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marva\\Desktop\\KnapsackProblem-4ways\\Combinations\\Combinations.csproj",
+        "projectUniqueName": "C:\\Users\\42072\\0-1-Knapsack-Problem---four-ways\\Combinations\\Combinations.csproj",
         "projectName": "Combinations",
-        "projectPath": "C:\\Users\\marva\\Desktop\\KnapsackProblem-4ways\\Combinations\\Combinations.csproj",
-        "packagesPath": "C:\\Users\\marva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marva\\Desktop\\KnapsackProblem-4ways\\Combinations\\obj\\",
+        "projectPath": "C:\\Users\\42072\\0-1-Knapsack-Problem---four-ways\\Combinations\\Combinations.csproj",
+        "packagesPath": "C:\\Users\\42072\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\42072\\0-1-Knapsack-Problem---four-ways\\Combinations\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\marva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\42072\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

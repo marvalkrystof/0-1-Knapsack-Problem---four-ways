@@ -22,3 +22,15 @@ C:\Users\marva\Desktop\KnapsackProblem-4ways\Knapsack\obj\Debug\net6.0\Knapsack.
 C:\Users\marva\Desktop\KnapsackProblem-4ways\Knapsack\obj\Debug\net6.0\refint\Knapsack.dll
 C:\Users\marva\Desktop\KnapsackProblem-4ways\Knapsack\obj\Debug\net6.0\Knapsack.pdb
 C:\Users\marva\Desktop\KnapsackProblem-4ways\Knapsack\obj\Debug\net6.0\ref\Knapsack.dll
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Knapsack\bin\Debug\net6.0\Knapsack.deps.json
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Knapsack\bin\Debug\net6.0\Knapsack.dll
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Knapsack\bin\Debug\net6.0\Knapsack.pdb
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Knapsack\obj\Debug\net6.0\Knapsack.csproj.AssemblyReference.cache
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Knapsack\obj\Debug\net6.0\Knapsack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Knapsack\obj\Debug\net6.0\Knapsack.AssemblyInfoInputs.cache
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Knapsack\obj\Debug\net6.0\Knapsack.AssemblyInfo.cs
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Knapsack\obj\Debug\net6.0\Knapsack.csproj.CoreCompileInputs.cache
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Knapsack\obj\Debug\net6.0\Knapsack.dll
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Knapsack\obj\Debug\net6.0\refint\Knapsack.dll
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Knapsack\obj\Debug\net6.0\Knapsack.pdb
+C:\Users\42072\0-1-Knapsack-Problem---four-ways\Knapsack\obj\Debug\net6.0\ref\Knapsack.dll
