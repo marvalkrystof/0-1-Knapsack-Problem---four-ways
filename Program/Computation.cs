@@ -3,6 +3,7 @@ using CSharpItertools;
 using Knapsack;
 using System.Configuration;
 using System.Diagnostics;
+using System.Linq;
 
 namespace Program
 {
@@ -29,11 +30,36 @@ namespace Program
         {
             LoadConfig();
             Stopwatch stopWatch = new Stopwatch();
-            Knapsack.Knapsack knapsack = new Knapsack.Knapsack(this.knapsackCapacity); 
-            List<Item> items = Item.GenerateItems(numberOfItems, minItemWeight, maxItemWeight, minItemValue, maxItemValue);
+            Knapsack.Knapsack knapsack = new Knapsack.Knapsack(this.knapsackCapacity);
+
+
+
+            List<Thread> threads = new List<Thread>();
+
+            List<Item> candidates = new List<Item>();
 
             stopWatch.Start();
-            var best = knapsack.Solve(items);
+
+            for (int i = 0; i < Environment.ProcessorCount; i++)
+            {
+                int y = i;
+                Thread thread = new Thread(() =>
+                {
+                    List<Item> items = Item.GenerateItems(numberOfItems / Environment.ProcessorCount, minItemWeight, maxItemWeight, minItemValue, maxItemValue);
+                    var bestOfThread = knapsack.Solve(items);
+                    candidates.AddRange(bestOfThread.Item2);
+                });
+                thread.Start();
+                threads.Add(thread);
+            }
+            foreach (Thread thread in threads)
+            {
+                thread.Join();
+            }
+
+
+            var best = knapsack.Solve(candidates);
+
             stopWatch.Stop();
             Logger.Logger.Log("Total value of items: " + best.Item1 + "\nBest combination items:\n" + string.Join("\n", best.Item2));
             Logger.Logger.Log("Miliseconds elapsed: " + stopWatch.ElapsedMilliseconds.ToString());
