@@ -7,8 +7,9 @@ namespace Program {
 
         static void Main(string[] args)
         {
-            Computation computation = new Computation();
-            computation.Start();
+          Computation computation = new Computation();
+          computation.Start();
+
         }
 
     }

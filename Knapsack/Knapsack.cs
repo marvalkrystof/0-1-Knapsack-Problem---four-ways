@@ -1,8 +1,10 @@
-﻿namespace Knapsack
+﻿using System.Runtime.CompilerServices;
+
+namespace Knapsack
 {
-/// <summary>
-/// Class representing a knapsack from the 0/1 Knapsack problem
-/// </summary>
+    /// <summary>
+    /// Class representing a knapsack from the 0/1 Knapsack problem
+    /// </summary>
     public class Knapsack
     {
         int capacity;
@@ -27,46 +29,55 @@
                 capacity = value;
             }
         }
-        
+
         /// <summary>
-        /// Tries to fit provided combination into a knapsack
+        /// Finds the best item set for this knapsack using dynamic programming approach
         /// </summary>
-        /// <param name="items">Provided combination</param>
-        /// <returns>Value of the combination and the combination itself. Returns (-1, null) if the combination doesn't fit./returns>
-        public (int,IEnumerable<Item>) TryCombination(IEnumerable<Item> items)
+        /// <param name="items">Items provided for the calculation</param>
+        /// <returns>Total value of best items and list of the items</returns>
+        public (int, List<Item>) Solve(List<Item> items)
+
         {
-            int totalWeight = 0;
-            int totalValue = 0;
-            foreach (Item item in items)
+            int n = items.Count;
+            int[,] K = new int[n + 1, Capacity + 1];
+
+            for (int i = 0; i <= n; i++)
             {
-                totalValue += item.value;
-                totalWeight += item.weight;
-                if (totalWeight > Capacity)
+                for (int w = 0; w <= Capacity; w++)
                 {
-                    return (-1, null);
+                    if (i == 0 || w == 0)
+                        K[i, w] = 0;
+                    else if (items[i - 1].weight <= w)
+                        K[i, w] = max(items[i - 1].value + K[i - 1, w - items[i - 1].weight], K[i - 1, w]);
+                    else
+                        K[i, w] = K[i - 1, w];
                 }
             }
-                return (totalValue,items);
-        }
+
+            List<Item> selectedItems = new List<Item>();
+            int remainingWeight = Capacity;
+            int totalValue = 0;
+            for (int i = n; i > 0 && K[i, remainingWeight] > 0; i--)
+            {
+                if (K[i, remainingWeight] != K[i - 1, remainingWeight])
+                {
+                    Item selectedItem = items[i - 1];
+                    selectedItems.Add(selectedItem);
+                    remainingWeight -= selectedItem.weight;
+                    totalValue += selectedItem.value;
+                }
+            }
+
+            return (totalValue,selectedItems);
+            }
+
         /// <summary>
-        /// Finds the best result for the knapsack problem from provided combinations.
+        /// Finds the bigger number between two
         /// </summary>
-        /// <param name="combinations">The combinations of values</param>
-        /// <returns>The total value of the best combination and the combination itself</returns>
-        public (int, IEnumerable<Item>) FindBestResult(IEnumerable<IEnumerable<Item>> combinations) {
-
-            (int, IEnumerable<Item>) bestResult = (-1, new List<Item>());
-
-            foreach (IEnumerable<Item> combination in combinations) {
-            (int,IEnumerable<Item>) result = TryCombination(combination);
-                if (result.Item1 > bestResult.Item1)
-                {
-                    bestResult = result;
-                }
-            }
-            return bestResult;
-        }
-
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns>the bigger number</returns>
+        static int max(int a, int b) { return (a > b) ? a : b; }
 
     }
 }
