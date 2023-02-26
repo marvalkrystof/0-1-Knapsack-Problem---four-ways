@@ -1,5 +1,4 @@
 ﻿using Knapsack;
-using Combinations;
 using System.Diagnostics;
 
 namespace Program {

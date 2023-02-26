@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSharpItertools;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -74,6 +75,25 @@ namespace Knapsack
             }
             return items;
         }
+
+        /// <summary>
+        /// Generates all combinations possible from enumerable of items
+        /// </summary>
+        /// <param name="items">The items</param>
+        /// <returns>List of combinations</returns>
+        public static List<IEnumerable<Item>> GenerateAllCombinations(IEnumerable<Item> items)
+        {
+            Itertools itertools = new Itertools();
+            List<IEnumerable<Item>> results = new List<IEnumerable<Item>>();
+            for (int i = 1; i <= items.Count(); i++)
+            {
+                var combinations = itertools.Combinations(items, i);
+
+                results.AddRange(combinations);
+            }
+            return results;
+        }
+
 
         public override string ToString()
         {

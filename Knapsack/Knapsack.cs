@@ -33,7 +33,7 @@
         /// </summary>
         /// <param name="items">Provided combination</param>
         /// <returns>Value of the combination and the combination itself. Returns (-1, null) if the combination doesn't fit./returns>
-        public (int,List<Item>) TryCombination(List<Item> items)
+        public (int,IEnumerable<Item>) TryCombination(IEnumerable<Item> items)
         {
             int totalWeight = 0;
             int totalValue = 0;
@@ -53,12 +53,12 @@
         /// </summary>
         /// <param name="combinations">The combinations of values</param>
         /// <returns>The total value of the best combination and the combination itself</returns>
-        public (int, List<Item>) FindBestResult(List<List<Item>> combinations) {
+        public (int, IEnumerable<Item>) FindBestResult(IEnumerable<IEnumerable<Item>> combinations) {
 
-            (int, List<Item>) bestResult = (-1, new List<Item>());
+            (int, IEnumerable<Item>) bestResult = (-1, new List<Item>());
 
-            foreach (List<Item> combination in combinations) {
-            (int,List<Item>) result = TryCombination(combination);
+            foreach (IEnumerable<Item> combination in combinations) {
+            (int,IEnumerable<Item>) result = TryCombination(combination);
                 if (result.Item1 > bestResult.Item1)
                 {
                     bestResult = result;

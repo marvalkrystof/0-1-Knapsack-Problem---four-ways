@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "l5iV9gOWwkFY85UsMIta6MTguQlA/T6VvSkAG75jmU/K/g33AKntQAbAzr38BSHwgXFJ6ceCVructv9NJh0P/Q==",
+  "dgSpecHash": "4Z1oZwrbMTgGDFTTwhuTZVi+mmaQYpcvcfD6qxNa81LwR5ArgOIJpK2QhBuiGj6fDEtxyUSSZj5QG/x17oLGYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\42072\\0-1-Knapsack-Problem---four-ways\\Knapsack\\Knapsack.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\42072\\Desktop\\0-1-Knapsack-Problem---four-ways\\Knapsack\\Knapsack.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\42072\\.nuget\\packages\\csharpitertools\\1.0.0\\csharpitertools.1.0.0.nupkg.sha512",
+    "C:\\Users\\42072\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\42072\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\42072\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
