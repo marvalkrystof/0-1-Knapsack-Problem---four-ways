@@ -38,7 +38,16 @@ namespace Program
 
             stopWatch.Start();
 
-            for (int i = 0; i < Environment.ProcessorCount; i++)
+            int loops;
+            if (Environment.ProcessorCount > layers.Count)
+            {
+                loops = layers.Count;
+            }
+            else
+            {
+                loops = Environment.ProcessorCount;
+            }
+            for (int i = 0; i < loops; i++)
             {
                 int y = i;
                 Thread thread = new Thread(() =>
