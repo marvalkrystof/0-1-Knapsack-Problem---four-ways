@@ -7,3 +7,5 @@ Solving the problem using only bruteforce, without any heuristic or paralelizati
 <h2>Version v2.x </h2> 
 Solving the problem using bruteforce with paralelization included
 
+<h2>Version v3.x </h2> 
+Solving the problem using dynamic programming approach
