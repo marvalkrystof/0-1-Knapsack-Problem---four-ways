@@ -70,7 +70,7 @@ namespace Program
         /// <summary>
         /// Loads the configuration from App.config into fields of this object
         /// </summary>
-        private void LoadConfig() {
+        public void LoadConfig() {
             string? knapsackCapacityString = System.Configuration.ConfigurationManager.AppSettings["knapsackCapacity"];
             string? numberOfItemsString = System.Configuration.ConfigurationManager.AppSettings["numberOfItems"];
             string? itemMinValueString = System.Configuration.ConfigurationManager.AppSettings["itemMinValue"];

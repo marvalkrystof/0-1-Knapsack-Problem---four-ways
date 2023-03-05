@@ -47,8 +47,8 @@ namespace Knapsack
                 {
                     if (i == 0 || w == 0)
                         K[i, w] = 0;
-                    else if (items[i - 1].weight <= w)
-                        K[i, w] = max(items[i - 1].value + K[i - 1, w - items[i - 1].weight], K[i - 1, w]);
+                    else if (items[i - 1].Weight <= w)
+                        K[i, w] = max(items[i - 1].Value + K[i - 1, w - items[i - 1].Weight], K[i - 1, w]);
                     else
                         K[i, w] = K[i - 1, w];
                 }
@@ -63,8 +63,8 @@ namespace Knapsack
                 {
                     Item selectedItem = items[i - 1];
                     selectedItems.Add(selectedItem);
-                    remainingWeight -= selectedItem.weight;
-                    totalValue += selectedItem.value;
+                    remainingWeight -= selectedItem.Weight;
+                    totalValue += selectedItem.Value;
                 }
             }
 

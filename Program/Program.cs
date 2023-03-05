@@ -1,5 +1,6 @@
 ﻿using Knapsack;
 using System.Diagnostics;
+using System.Text.Json;
 
 namespace Program {
     class Program
@@ -7,9 +8,11 @@ namespace Program {
 
         static void Main(string[] args)
         {
-          Computation computation = new Computation();
-          computation.Start();
-
+            Computation computation = new Computation();
+            computation.Start();
+            
+            
+        
         }
 
     }

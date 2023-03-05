@@ -34,3 +34,15 @@ C:\Users\42072\Desktop\0-1-Knapsack-Problem---four-ways\Logger\obj\Debug\net6.0\
 C:\Users\42072\Desktop\0-1-Knapsack-Problem---four-ways\Logger\obj\Debug\net6.0\refint\Logger.dll
 C:\Users\42072\Desktop\0-1-Knapsack-Problem---four-ways\Logger\obj\Debug\net6.0\Logger.pdb
 C:\Users\42072\Desktop\0-1-Knapsack-Problem---four-ways\Logger\obj\Debug\net6.0\ref\Logger.dll
+C:\Users\marva\Source\Repos\0-1-Knapsack-Problem---four-ways\Logger\bin\Debug\net6.0\Logger.deps.json
+C:\Users\marva\Source\Repos\0-1-Knapsack-Problem---four-ways\Logger\bin\Debug\net6.0\Logger.dll
+C:\Users\marva\Source\Repos\0-1-Knapsack-Problem---four-ways\Logger\bin\Debug\net6.0\Logger.pdb
+C:\Users\marva\Source\Repos\0-1-Knapsack-Problem---four-ways\Logger\obj\Debug\net6.0\Logger.csproj.AssemblyReference.cache
+C:\Users\marva\Source\Repos\0-1-Knapsack-Problem---four-ways\Logger\obj\Debug\net6.0\Logger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marva\Source\Repos\0-1-Knapsack-Problem---four-ways\Logger\obj\Debug\net6.0\Logger.AssemblyInfoInputs.cache
+C:\Users\marva\Source\Repos\0-1-Knapsack-Problem---four-ways\Logger\obj\Debug\net6.0\Logger.AssemblyInfo.cs
+C:\Users\marva\Source\Repos\0-1-Knapsack-Problem---four-ways\Logger\obj\Debug\net6.0\Logger.csproj.CoreCompileInputs.cache
+C:\Users\marva\Source\Repos\0-1-Knapsack-Problem---four-ways\Logger\obj\Debug\net6.0\Logger.dll
+C:\Users\marva\Source\Repos\0-1-Knapsack-Problem---four-ways\Logger\obj\Debug\net6.0\refint\Logger.dll
+C:\Users\marva\Source\Repos\0-1-Knapsack-Problem---four-ways\Logger\obj\Debug\net6.0\Logger.pdb
+C:\Users\marva\Source\Repos\0-1-Knapsack-Problem---four-ways\Logger\obj\Debug\net6.0\ref\Logger.dll

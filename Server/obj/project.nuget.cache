@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "S2LRlEjRdtdy2Aa1wsiYJqwk8RnmEx+gsvH/qtYVJl/xupw0R/8NxT6Zyy2JMFSGEdWztWTYvKThWn+Il6eK6Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marva\\source\\repos\\0-1-Knapsack-Problem---four-ways\\Server\\Master.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marva\\.nuget\\packages\\csharpitertools\\1.0.0\\csharpitertools.1.0.0.nupkg.sha512",
+    "C:\\Users\\marva\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\marva\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\marva\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\marva\\.nuget\\packages\\system.configuration.configurationmanager\\7.0.0\\system.configuration.configurationmanager.7.0.0.nupkg.sha512",
+    "C:\\Users\\marva\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\marva\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\marva\\.nuget\\packages\\system.security.cryptography.protecteddata\\7.0.0\\system.security.cryptography.protecteddata.7.0.0.nupkg.sha512",
+    "C:\\Users\\marva\\.nuget\\packages\\system.security.permissions\\7.0.0\\system.security.permissions.7.0.0.nupkg.sha512",
+    "C:\\Users\\marva\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

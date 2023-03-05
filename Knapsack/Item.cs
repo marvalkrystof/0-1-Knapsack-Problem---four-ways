@@ -12,14 +12,17 @@ namespace Knapsack
     /// </summary>
     public class Item
     {
-        public int weight;
-        public int value;
+        private int weight;
+        private int value;
 
         public Item(int weight, int value)
         {
-            this.weight = weight;
-            this.value = value;
+            this.Weight = weight;
+            this.Value = value;
         }
+
+        public int Weight { get => weight; set => weight = value; }
+        public int Value { get => value; set => this.value = value; }
 
         /// <summary>
         /// Generates an item according to parameters.
@@ -79,7 +82,7 @@ namespace Knapsack
 
         public override string ToString()
         {
-            return "Weight: " + weight + " Value: " + value;
+            return "Weight: " + Weight + " Value: " + Value;
         }
 
 

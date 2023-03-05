@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\42072\\Desktop\\0-1-Knapsack-Problem---four-ways\\Program\\Program.csproj": {}
+    "C:\\Users\\marva\\source\\repos\\0-1-Knapsack-Problem---four-ways\\Program\\Program.csproj": {}
   },
   "projects": {
-    "C:\\Users\\42072\\Desktop\\0-1-Knapsack-Problem---four-ways\\Knapsack\\Knapsack.csproj": {
+    "C:\\Users\\marva\\source\\repos\\0-1-Knapsack-Problem---four-ways\\Knapsack\\Knapsack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\42072\\Desktop\\0-1-Knapsack-Problem---four-ways\\Knapsack\\Knapsack.csproj",
+        "projectUniqueName": "C:\\Users\\marva\\source\\repos\\0-1-Knapsack-Problem---four-ways\\Knapsack\\Knapsack.csproj",
         "projectName": "Knapsack",
-        "projectPath": "C:\\Users\\42072\\Desktop\\0-1-Knapsack-Problem---four-ways\\Knapsack\\Knapsack.csproj",
-        "packagesPath": "C:\\Users\\42072\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\42072\\Desktop\\0-1-Knapsack-Problem---four-ways\\Knapsack\\obj\\",
+        "projectPath": "C:\\Users\\marva\\source\\repos\\0-1-Knapsack-Problem---four-ways\\Knapsack\\Knapsack.csproj",
+        "packagesPath": "C:\\Users\\marva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marva\\source\\repos\\0-1-Knapsack-Problem---four-ways\\Knapsack\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\42072\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marva\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,24 +65,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\42072\\Desktop\\0-1-Knapsack-Problem---four-ways\\Logger\\Logger.csproj": {
+    "C:\\Users\\marva\\source\\repos\\0-1-Knapsack-Problem---four-ways\\Logger\\Logger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\42072\\Desktop\\0-1-Knapsack-Problem---four-ways\\Logger\\Logger.csproj",
+        "projectUniqueName": "C:\\Users\\marva\\source\\repos\\0-1-Knapsack-Problem---four-ways\\Logger\\Logger.csproj",
         "projectName": "Logger",
-        "projectPath": "C:\\Users\\42072\\Desktop\\0-1-Knapsack-Problem---four-ways\\Logger\\Logger.csproj",
-        "packagesPath": "C:\\Users\\42072\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\42072\\Desktop\\0-1-Knapsack-Problem---four-ways\\Logger\\obj\\",
+        "projectPath": "C:\\Users\\marva\\source\\repos\\0-1-Knapsack-Problem---four-ways\\Logger\\Logger.csproj",
+        "packagesPath": "C:\\Users\\marva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marva\\source\\repos\\0-1-Knapsack-Problem---four-ways\\Logger\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\42072\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marva\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -124,24 +124,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\42072\\Desktop\\0-1-Knapsack-Problem---four-ways\\Program\\Program.csproj": {
+    "C:\\Users\\marva\\source\\repos\\0-1-Knapsack-Problem---four-ways\\Program\\Program.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\42072\\Desktop\\0-1-Knapsack-Problem---four-ways\\Program\\Program.csproj",
+        "projectUniqueName": "C:\\Users\\marva\\source\\repos\\0-1-Knapsack-Problem---four-ways\\Program\\Program.csproj",
         "projectName": "Program",
-        "projectPath": "C:\\Users\\42072\\Desktop\\0-1-Knapsack-Problem---four-ways\\Program\\Program.csproj",
-        "packagesPath": "C:\\Users\\42072\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\42072\\Desktop\\0-1-Knapsack-Problem---four-ways\\Program\\obj\\",
+        "projectPath": "C:\\Users\\marva\\source\\repos\\0-1-Knapsack-Problem---four-ways\\Program\\Program.csproj",
+        "packagesPath": "C:\\Users\\marva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marva\\source\\repos\\0-1-Knapsack-Problem---four-ways\\Program\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\42072\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marva\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -156,11 +156,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\42072\\Desktop\\0-1-Knapsack-Problem---four-ways\\Knapsack\\Knapsack.csproj": {
-                "projectPath": "C:\\Users\\42072\\Desktop\\0-1-Knapsack-Problem---four-ways\\Knapsack\\Knapsack.csproj"
+              "C:\\Users\\marva\\source\\repos\\0-1-Knapsack-Problem---four-ways\\Knapsack\\Knapsack.csproj": {
+                "projectPath": "C:\\Users\\marva\\source\\repos\\0-1-Knapsack-Problem---four-ways\\Knapsack\\Knapsack.csproj"
               },
-              "C:\\Users\\42072\\Desktop\\0-1-Knapsack-Problem---four-ways\\Logger\\Logger.csproj": {
-                "projectPath": "C:\\Users\\42072\\Desktop\\0-1-Knapsack-Problem---four-ways\\Logger\\Logger.csproj"
+              "C:\\Users\\marva\\source\\repos\\0-1-Knapsack-Problem---four-ways\\Logger\\Logger.csproj": {
+                "projectPath": "C:\\Users\\marva\\source\\repos\\0-1-Knapsack-Problem---four-ways\\Logger\\Logger.csproj"
               }
             }
           }
@@ -204,7 +204,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
